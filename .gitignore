@@ -71,3 +71,5 @@ Thumbs.db
 *.dll
 *.exe
 
+build-qml-filedialog-Android/
+build-qml-filedialog-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/

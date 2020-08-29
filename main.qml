@@ -1,4 +1,4 @@
-/**
+﻿/**
 MIT License
 
 Copyright (c) 2017 Andrey Semenov
@@ -33,8 +33,8 @@ ApplicationWindow  {
 	title: qsTr("File Dialog")
 	FilePicker {
 		anchors.fill: parent
-		showDotAndDotDot: true
-		nameFilters: "*.jpeg"
+        showDotAndDotDot: false
+        nameFilters: ["*.jpg", "*.png", "*.bmp", "*.jpeg", "*.avi", "*.mp4", "*.wmv"]
 		onFileSelected: {
 			messageDialog.text = "Cannot open file "+ currentFolder() + "/" +fileName
 			messageDialog.open()

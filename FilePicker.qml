@@ -1,4 +1,4 @@
-/**
+﻿/**
 MIT License
 
 Copyright (c) 2017 Andrey Semenov
@@ -174,7 +174,8 @@ Item {
 		Component {
 			id: headerDelegate
 			Rectangle {
-				height: rowHeight
+                visible: false
+                height: rowHeight
 				color: Utils.textAltColor()
 				border.color: Utils.textAltColor()
 				Text {
